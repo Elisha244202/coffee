@@ -56,6 +56,18 @@ html::-webkit-scrollbar-thumb{
   letter-spacing: 1px;
 }
 
+.heading{
+  font-size: 4rem;
+  text-align: center;
+  text-transform: uppercase;
+  padding-bottom: 3.5rem;
+  color: #fff;
+}
+
+.heading span{
+  color: var(--main-color);
+}
+
 
 
 
@@ -234,6 +246,44 @@ html::-webkit-scrollbar-thumb{
 /* home section end */
 
 
+
+/* about section start */
+.about *{
+  color: #fff;
+}
+
+.about .row{
+  display: flex;
+  align-items: center;
+  background: var(--black);
+  flex-wrap: wrap;
+}
+
+.about .row .image{
+  flex: 1 1 45rem;
+}
+
+.about .row .image img{
+  width: 100%;
+}
+
+.about .row .content{
+  flex: 1 1 45rem;
+  padding: 2rem;
+}
+
+.about .row .content h3{
+  font-size: 3rem;
+  color: #fff;
+}
+
+.about .row .content p{
+  font-size: 1.6rem;
+  color: #ccc;
+  padding: 1rem 0;
+  line-height: 1.8;
+}
+/* about section end */
 
 
 
