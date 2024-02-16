@@ -19,6 +19,7 @@
 
 body{
   background: var(--bg);
+  padding: 0 7%;
 }
 
 html{
@@ -484,8 +485,8 @@ html::-webkit-scrollbar-thumb{
     font-size: 1.5rem;
   }
 
-  section{
-    padding: 2rem 3rem;
+  body{
+    padding: 0rem 2rem;
   }
 }
 
