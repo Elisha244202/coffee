@@ -253,7 +253,7 @@ html::-webkit-scrollbar-thumb{
 }
 
 .about{
-  margin-top: 20px;
+  margin-top: 50px;
 }
 
 .about .row{
@@ -293,6 +293,10 @@ html::-webkit-scrollbar-thumb{
 
 
 /* menu section start */
+.menu{
+  margin-top: 50px;
+}
+
 .menu .box-container{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
@@ -344,6 +348,10 @@ html::-webkit-scrollbar-thumb{
 /* products section start */
 .products *{
   color: #fff;
+}
+
+.products{
+   margin-top: 50px;
 }
 
 .products .box-container{
