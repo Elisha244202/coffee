@@ -199,6 +199,40 @@ html::-webkit-scrollbar-thumb{
 }
 /* header section end */
 
+/* home section start */
+.home *{
+  color: #fff;
+}
+
+.home{
+  border: 2px solid green;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background:  linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(coffeebg.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.home .content{
+  max-width: 60rem;
+  border: 2px solid yellow;
+}
+
+.home .content h3{
+  font-size: 6rem;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.home .content p{
+  font-size: 1.8rem;
+  line-height: 1.8;
+  font-weight: lighter;
+  padding: 1rem 0;
+  color: hsl(0, 0%, 73%);
+}
+/* home section end */
 
 
 
@@ -261,6 +295,20 @@ html::-webkit-scrollbar-thumb{
   .header .search-form{
     width: 90%;
     right: 2rem;
+  }
+
+  .home{
+    justify-content: center;
+    background-position: left;
+    text-align: center;
+  }
+
+  .home .content h3{
+    font-size: 4.5rem;
+  }
+
+  .home .content p{
+    font-size: 1.5rem;
   }
 }
 
