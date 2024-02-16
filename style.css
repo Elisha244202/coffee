@@ -168,6 +168,7 @@ html::-webkit-scrollbar-thumb{
 .header .cart-items-container .cart-item img{
   height: 7rem;
   width: 100px;
+  object-fit: cover;
 }
 
 .header .cart-items-container .cart-item .fa-times{
