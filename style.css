@@ -301,6 +301,10 @@ html::-webkit-scrollbar-thumb{
     text-align: center;
   }
 
+  .home{
+    border: none;
+  }
+
   .home .content h3{
     font-size: 4.5rem;
   }
