@@ -252,6 +252,10 @@ html::-webkit-scrollbar-thumb{
   color: #fff;
 }
 
+.about{
+  margin-top: 20px;
+}
+
 .about .row{
   display: flex;
   align-items: center;
