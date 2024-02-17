@@ -490,7 +490,7 @@ html::-webkit-scrollbar-thumb{
   }
 
   section{
-    padding: 0rem 2rem;
+    padding: 0rem .5rem;
   }
 }
 
