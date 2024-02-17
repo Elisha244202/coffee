@@ -489,7 +489,7 @@ html::-webkit-scrollbar-thumb{
     margin-top: 60px;
   }
 
-  body{
+  section{
     padding: 0rem 2rem;
   }
 }
