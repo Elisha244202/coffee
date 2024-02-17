@@ -411,6 +411,57 @@ html::-webkit-scrollbar-thumb{
 
 
 
+/* review section start */
+.review *{
+  color: #fff;
+}
+
+.review .box-container{
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+}
+
+.review .box-container .box{
+  border: var(--border);
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.review .box-container .box .fa-solid.fa-quote-right{
+  font-size: 6rem;
+  color: var(--main-color);
+}
+
+.review .box-container .box p{
+  font-size: 1.3rem;
+  color: #ccc;
+  line-height: 1.8;
+  margin: 1.2rem 0;
+}
+
+.review .box-container .box .user-name{
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+.review .box-container .box .stars .fas{
+  font-size: 1.5rem;
+  color: var(--main-color);
+}
+
+.review .box-container .box .user-img{
+  border-radius: 50%;
+}
+
+.review .box-container .box .user-img img{
+  width: 7rem;
+  border-radius: 50%;
+}
+/* review section end */
+
+
 
 
 
