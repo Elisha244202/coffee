@@ -541,7 +541,7 @@ html::-webkit-scrollbar-thumb{
   }
 
   section{
-    padding: 0rem .5rem;
+    padding: .5rem .5rem;
   }
 }
 
