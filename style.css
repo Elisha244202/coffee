@@ -463,6 +463,59 @@ html::-webkit-scrollbar-thumb{
 
 
 
+/* contact section start */
+.contact .row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .5rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact .row .map{
+  flex: 1 1 45rem;
+}
+
+.contact .row form{
+  flex: 1 1 45rem;
+  text-align: center;
+  padding: 1.5rem;
+  background: var(--black);
+}
+
+.contact .row form h3{
+  font-size: 3rem;
+  margin-top: 1.8rem;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.contact .row form .input-box{
+  border: var(--border);
+  padding: 1.5rem;
+  display: flex;
+  margin: 1.8rem 0;
+  align-items: center;
+}
+
+.contact .row form .input-box input{
+  width: 100%;
+  color: #fff;
+  background: transparent;
+}
+
+.contact .row form .btn{
+  margin-bottom: 2.5rem;
+}
+
+
+.contact .row form .input-box .fa-solid{
+  color: #fff;
+  font-size: 1.5rem;
+  margin-right: 1rem;
+}
+/* contact section end */
+
 
 
 
@@ -537,6 +590,14 @@ html::-webkit-scrollbar-thumb{
   }
 
   .about{
+    margin-top: 60px;
+  }
+
+  .products{
+    margin-top: 60px;
+  }
+
+  .contact{
     margin-top: 60px;
   }
 
