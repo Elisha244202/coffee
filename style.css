@@ -527,6 +527,60 @@ html::-webkit-scrollbar-thumb{
   text-align: center;
 }
 
+
+/* blogs section start */
+.blogs *{
+  color: #fff;
+}
+
+.blogs .box-container{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: 1.5rem;
+}
+
+.blogs .box-container .box{
+  border: var(--border);
+}
+
+.blogs .box-container .box .image{
+  width: 100%;
+  height: 25rem;
+}
+
+.blogs .box-container .box .image img{
+  width: 100%;
+  height: 25rem;
+  object-fit: cover;
+}
+
+.blogs .box-container .box .content{
+  padding: 1.6rem 1rem;
+}
+
+.blogs .box-container .box h3{
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  cursor: default;
+}
+
+.blogs .box-container .box h3:hover{
+  color: var(--main-color);
+}
+
+.blogs .box-container .box span{
+  color: var(--main-color);
+  font-size: 1.3rem;
+}
+
+.blogs .box-container .box .content p{
+  font-size: 1.2rem;
+  margin: 1rem 0;
+  padding-bottom: .8rem;
+}
+/* blogs section end */
+
+
 .footer .share .fab{
   font-size: 1.5rem;
   width: 4.2rem;
