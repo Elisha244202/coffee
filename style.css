@@ -517,6 +517,54 @@ html::-webkit-scrollbar-thumb{
 
 
 
+/* footer section start */
+.footer *{
+  color: #fff;
+}
+
+.footer{
+  background: var(--black);
+  text-align: center;
+}
+
+.footer .share .fab{
+  font-size: 1.5rem;
+  width: 4.2rem;
+  height: 4.2rem;
+  line-height: 4.2rem;
+  text-align: center;
+  margin: 0 .4rem;
+  border-radius: 50%;
+  border: var(--border);
+}
+
+.footer .share .fab:hover{
+  background: var(--main-color);
+}
+
+.footer .links{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin: 3rem 0;
+}
+
+.footer .links a{
+  font-size: 1.6rem;
+  border: var(--border);
+  padding: .5rem 1.5rem;
+}
+
+.footer .credit{
+  font-size: 1.7rem;
+}
+
+.footer .credit span{
+  color: var(--main-color);
+}
+/* footer section end */
+
 
 
 
