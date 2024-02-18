@@ -416,6 +416,10 @@ html::-webkit-scrollbar-thumb{
   color: #fff;
 }
 
+.review{
+  margin-top: 50px;
+}
+
 .review .box-container{
   display: grid;
   gap: 1.5rem;
@@ -525,12 +529,17 @@ html::-webkit-scrollbar-thumb{
 .footer{
   background: var(--black);
   text-align: center;
+  margin-top: 50px;
 }
 
 
 /* blogs section start */
 .blogs *{
   color: #fff;
+}
+
+.blogs{
+  margin-top: 50px;
 }
 
 .blogs .box-container{
